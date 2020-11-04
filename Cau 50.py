@@ -9,7 +9,6 @@ print(f'Cot {m}')
 matran.pop(0)
 _list = []
 for i in range (n):
-  _list.append([matran[i].split(' ')[j] for j in range (m)])
-  print(_list)
-
+  _list.append(sorted([int(matran[i].split(' ')[j]) for j in range (m)]))
+print(_list)
 #print(_list)
