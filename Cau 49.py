@@ -1,6 +1,6 @@
 import random
 KetQua=''
-f = open('ketqua.txt', 'r')
+f = open('mang.txt', 'r')
 So = f.read().split('\n')
 n = int(So[0])
 Mang = [int(So[1].split(' ')[i]) for i in range (len(So[1].split(' ')))]
