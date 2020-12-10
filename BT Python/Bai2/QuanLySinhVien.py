@@ -155,7 +155,7 @@ def Menu(x):
         TimKiemSinhVienTheoMa()
 
 def __main__():
-    #try:
+    try:
         while(True):
             print("******************************************")
             print("*     0. Thoát chương trình              *")
@@ -174,8 +174,8 @@ def __main__():
                     __main__()
             else:
                 Menu(n)
-    #except:
-        #print("Lỗi hệ thống xin vui lòng đóng chương trình khởi động lại . . .")
+    except:
+        print("Lỗi hệ thống xin vui lòng đóng chương trình khởi động lại . . .")
 
 
 __main__()
